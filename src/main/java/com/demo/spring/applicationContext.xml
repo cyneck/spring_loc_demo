@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean name="Student" class="com.demo.spring.bean.Student">
+        <property name="name" value="Tom"></property>
+        <property name="age" value="12"></property>
+    </bean>
+
+    <bean name="Teacher" class="com.demo.spring.bean.Teacher">
+        <property name="name" value="Eric"></property>
+        <property name="course" value="math"></property>
+    </bean>
+    <bean name="ClassRoom" class="com.demo.spring.bean.ClassRoom">
+        <property name="student" ref="Student"></property>
+        <property name="teacher" ref="Teacher"></property>
+    </bean>
+</beans>
