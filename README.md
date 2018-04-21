@@ -1,7 +1,8 @@
 # spring_loc_demo
 spring的依赖注入的基本原理代码
 
-参照：https://blog.csdn.net/linxi1209163com/article/details/51543891修改
+参照：https://blog.csdn.net/linxi1209163com/article/details/51543891
+修改学习
 
 简单来说ioc容器可以看做由一下四部完成：
 
